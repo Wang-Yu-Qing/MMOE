@@ -5,7 +5,7 @@ import argparse
 def parseArgs():
     argparser = argparse.ArgumentParser()
     argparser.add_argument('--epochs', type=int, default=50)
-    argparser.add_argument('--lr', type=float, default=0.005)
+    argparser.add_argument('--lr', type=float, default=0.001)
     argparser.add_argument('--trainBatchSize', type=int, default=1028)
     argparser.add_argument('--testBatchSize', type=int, default=256)
     argparser.add_argument('--trainDataPath', type=str, default="data/census/train_data.csv")
